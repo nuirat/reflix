@@ -1,0 +1,114 @@
+#main-links > a{
+    margin: 10px;
+    color: #34495e;
+    text-shadow: -1px -1px 0 #ecf0f1, 1px -1px 0 #ecf0f1, -1px 1px 0 #ecf0f1, 1px 1px 0 #ecf0f1;
+}
+
+*{
+    text-decoration: none;
+    font-family: 'Cinzel Decorative';
+    color:white
+}
+.users {
+    height: 60%;
+    width: 100%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .who{
+    padding: 10px;
+    text-align: center;
+
+}
+
+a{
+    cursor: pointer;
+    padding: 5px;
+    color:white
+}
+.movie{
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+}
+.user{
+    color: black;
+    vertical-align: bottom;
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block;
+    height: 35%;
+    width: 20%;
+    padding: 15px;
+margin: 5px;
+}
+img{
+    height:245px;
+    width: 245px;
+    margin-left: 0px;
+    margin-top: 13px;
+}
+.budget 
+{
+    color: white;
+}
+.catalog
+{
+    color: white;
+ 
+}
+body{
+    color: white;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+   
+    position: absolute;
+    
+}
+#title{
+    display: inline;
+}
+#image{
+    width: 350px;
+    height: 350px;
+    padding: 5px;
+}
+#year{
+    padding: 8px;
+    display: inline;
+}
+.budget{
+    margin-left: 75%;
+    text-align: end;
+}
+input{
+    display: inline;
+    color: black;
+}
+.movieDetails{
+    height: 60%;
+    width: 100%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+button{
+    cursor: pointer;
+    position: relative;
+    bottom:8em;
+    width: 30px;
+    height: 30px;
+   text-align: center;
+right:2em;
+font-size: 25px;
+border-radius: 15px;
+background-color: white;
+color:black;
+text-transform:uppercase;
+}
